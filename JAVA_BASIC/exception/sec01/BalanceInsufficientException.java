@@ -1,4 +1,4 @@
-package java_base.exception.sec01;
+package JAVA_BASIC.exception.sec01;
 
 public class BalanceInsufficientException extends Exception {
     public BalanceInsufficientException() {

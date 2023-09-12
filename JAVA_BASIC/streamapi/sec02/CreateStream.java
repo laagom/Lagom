@@ -1,4 +1,4 @@
-package java_base.streamapi.sec02;
+package JAVA_BASIC.streamapi.sec02;
 
 import java.util.ArrayList;
 import java.util.Arrays;
