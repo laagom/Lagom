@@ -67,3 +67,23 @@ or
 ```
 - 특정 ng-model에 대한 값을 ng-bind를 이용하여 표현식을 사용할 수 있음.
 
+### Angular JS Module & Controller 이용
+```HTML
+<div ng-app="myApp" ng-controller="myCtrl">
+        <div>
+        <!-- 3. Angular JS Module & Controller 이용 -->
+        First Name: <input type="text" ng-model="firstName"><br>
+        Last Name: <input type="text" ng-model="lastName"><br>
+        <br>
+        Full Name: {{firstName + " " + lastName}}
+        <script>
+            var app = angular.module('myApp', []);
+            app.controller('myCtrl', function($scope) {
+                $scope.firstName= "John";
+                $scope.lastName= "Doe";
+            });
+        </script>
+    </div>
+</div>
+```
+- ng-app에 대한 특정 controller를 지정하여 angular js를 이용할 수 있음.
