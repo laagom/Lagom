@@ -1,4 +1,3 @@
-# 리눅스 마스터
 <div style="position:fixed; right:0; width:30%;">
 
 ### 목차
@@ -14,6 +13,7 @@
 
 <div style="top:10%; width:70%;">
 
+# 리눅스 마스터
 ## Section 1. 리눅스 개요
 
 ### 리눅스의 특징 및 장단점
